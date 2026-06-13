@@ -178,8 +178,9 @@ function finishTest(){
 
     html += `
     <br><br>
+
     <button onclick="downloadCertificate()">
-      🎓 Sertifikatni olish
+    🎓 Sertifikatni olish
     </button>
     `;
 
