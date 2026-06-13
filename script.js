@@ -15,6 +15,7 @@ async function loadQuestions() {
   const response = await fetch(CSV_URL);
   const csvText = await response.text();
 
+  console.log(csvText);
   const rows = csvText.trim().split("\n");
 
   questions = [];
