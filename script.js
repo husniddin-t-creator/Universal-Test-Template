@@ -159,28 +159,36 @@ function nextQuestion(){
 
 function finishTest(){
 
-clearInterval(timerInterval);
+  clearInterval(timerInterval);
 
-let percent =
-Math.round(score / questions.length * 100);
+  let percent =
+  Math.round(score / questions.length * 100);
 
-let html = `
+  let html = `
+  <h2>Test tugadi</h2>
 
-if(percent >= 90){
+  <p>To'g'ri javoblar: ${score}</p>
 
-html += `
-<br><br>
-<button onclick="downloadCertificate()">
-🎓 Sertifikatni olish
-</button>
-`;
+  <p>Jami savollar: ${questions.length}</p>
 
-}
+  <p>Natija: ${percent}%</p>
+  `;
 
-document.querySelector(".container").innerHTML =
-html;
+  if(percent >= 90){
 
-saveResult(score, percent);
+    html += `
+    <br><br>
+    <button onclick="downloadCertificate()">
+      🎓 Sertifikatni olish
+    </button>
+    `;
+
+  }
+
+  document.querySelector(".container").innerHTML =
+  html;
+
+  saveResult(score, percent);
 
 }
 function updateTimer(){
