@@ -21,7 +21,7 @@ async function loadQuestions() {
 
   for(let i = 1; i < rows.length; i++) {
 
-    const cols = rows[i].split("\t");
+    const cols = rows[i].split("\,");
 
     if(cols.length >= 6){
 
