@@ -17,7 +17,8 @@ async function loadQuestions() {
 
   console.log(csvText);
   const rows = csvText.trim().split("\n");
-
+console.log("Qatorlar soni:", rows.length);
+console.log("1-qator:", rows[1]);
   questions = [];
 
   for(let i = 1; i < rows.length; i++) {
