@@ -1,5 +1,5 @@
 const SAVE_URL =
-"https://script.google.com/macros/s/AKfycbwdf-qj9JNe_u6nm22GLPq9qDKNYxjXPpwemyX_IeyAdSh5kjmT40dsOAnREESzHuveww/exec";
+"https://script.google.com/macros/s/AKfycbzdiVXt4yGxLdghZ-wBdchz9RWGYPXuP7BeDbhRrW2i_w87RAReOE2PXCZ9eDxgrttG/exec";
 
 const CSV_URL =
 "https://docs.google.com/spreadsheets/d/1hOw_r35xRsnHk-hVjYeDtkGIP4RE4yKK-FTKNFM2Lrg/export?format=csv&gid=0";
