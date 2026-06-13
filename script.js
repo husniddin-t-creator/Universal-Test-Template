@@ -1,6 +1,5 @@
 const SAVE_URL =
 "https://script.google.com/macros/s/AKfycbziiXhpTKJdKLjiG1RTdOxSiyvxEU2vxSvuV05Y5_Ij3uB2KKxHT8_H4TV5p4mlqWCB/exec";
-
 const CSV_URL =
 "https://docs.google.com/spreadsheets/d/1hOw_r35xRsnHk-hVjYeDtkGlP4RE4yKK-FTKNFM2Lrg/export?format=csv&gid=0";
 let questions = [];
